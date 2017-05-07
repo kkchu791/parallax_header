@@ -1,0 +1,52 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #ccc;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+
+article {
+  padding: 100px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.mountain {
+  position: relative;
+  height: 500px;
+  background-image: url(../images/mountain1.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-attachment: fixed;
+}
+
+.logo-image {
+  background-image: url(../images/nike.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  margin-top: -50px;
+}
+
+.fore-image {
+  width: 960px;
+  height: 730px;
+  background-image: url(../images/hydroflask1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: absolute;
+  left: 60%;
+  margin-left: -480px;
+}

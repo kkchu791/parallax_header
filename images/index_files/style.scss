@@ -11,7 +11,7 @@ h1 {
 
 article {
   padding: 100px 0;
-  max-width: 640px;
+  max-width: 700px;
   margin: 0 auto;
   text-align: center;
 }
@@ -49,4 +49,11 @@ img {
   position: absolute;
   left: 60%;
   margin-left: -480px;
+}
+
+// Model Grid
+
+.figure {
+  margin-bottom: 20px;
+  position: relative;
 }
